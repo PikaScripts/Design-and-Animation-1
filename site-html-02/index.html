@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Учебный сайт фитнес-клуба VECTOR: направления тренировок, преимущества и контакты.">
+  <title>VECTOR — учебный сайт фитнес-клуба</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+  <!-- Шапка и основная навигация -->
+  <header class="site-header">
+    <a class="logo" href="#hero" aria-label="VECTOR — начало страницы">VECTOR<span> / FITNESS</span></a>
+    <nav aria-label="Основная навигация">
+      <a href="#about">О нас</a>
+      <a href="#features">Преимущества</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section id="hero" class="hero" aria-labelledby="hero-title">
+      <div>
+        <p class="eyebrow">ДВИЖЕНИЕ НАЧИНАЕТСЯ С ТЕБЯ</p>
+        <h1 id="hero-title">Твой ритм.<br>Твоя сила.</h1>
+        <p class="lead">Место для тех, кто хочет стать сильнее, освоить новые движения и сделать тренировки частью своей жизни.</p>
+        <a class="button" href="#features">Узнать больше <span aria-hidden="true">↗</span></a>
+      </div>
+      <figure>
+        <img src="images/hero.svg" width="640" height="520" alt="Схематичная иллюстрация тренировочной зоны: штанга на стойках, скамья и диски">
+        <figcaption>Силовая зона фитнес-клуба. Авторская иллюстрация.</figcaption>
+      </figure>
+    </section>
+    <section id="about" class="about" aria-labelledby="about-title">
+      <p class="eyebrow">01 / О КЛУБЕ</p>
+      <h2 id="about-title">Пространство для движения</h2>
+      <p>VECTOR — концепция фитнес-клуба, объединяющего силовые тренировки, кардио и занятия на мобильность. Здесь можно выбрать подходящий формат и двигаться к своей цели в удобном темпе.</p>
+      <p class="note">Это учебный проект. Название клуба, услуги и контакты приведены для демонстрации HTML-структуры.</p>
+    </section>
+    <section id="features" aria-labelledby="features-title">
+      <p class="eyebrow">02 / ПРЕИМУЩЕСТВА</p>
+      <h2 id="features-title">Всё для твоего старта</h2>
+      <div class="cards">
+        <article><span class="number" aria-hidden="true">01</span><h3>Разные направления</h3><p>Свободные веса, тренажёры и кардиозона позволяют разнообразить программу занятий.</p></article>
+        <article><span class="number" aria-hidden="true">02</span><h3>Поддержка тренера</h3><p>Вводное занятие помогает познакомиться с оборудованием и основами техники упражнений.</p></article>
+        <article><span class="number" aria-hidden="true">03</span><h3>Удобный формат</h3><p>Самостоятельные и персональные тренировки дают возможность подобрать свой режим посещения.</p></article>
+      </div>
+    </section>
+    <aside aria-labelledby="links-title">
+      <div><p class="eyebrow">ДЛЯ ИЗУЧЕНИЯ HTML</p><h2 id="links-title">Полезные материалы</h2></div>
+      <ul>
+        <li><a href="https://developer.mozilla.org/ru/docs/Web/HTML">Справочник HTML на MDN</a></li>
+        <li><a href="https://www.w3.org/WAI/">Руководства W3C по доступности</a></li>
+        <li><a href="https://validator.w3.org/">Валидатор разметки W3C</a></li>
+      </ul>
+    </aside>
+  </main>
+  <footer id="contacts">
+    <div><h2>Будь в движении.</h2><p>Контакты учебного проекта</p><address><a href="mailto:hello@example.com">hello@example.com</a></address></div>
+    <div class="footer-bottom"><p>© 2026 VECTOR. Учебный сайт.</p><a href="#hero">Наверх ↑</a></div>
+  </footer>
+</body>
+</html>
